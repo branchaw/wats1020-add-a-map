@@ -1,19 +1,33 @@
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+ 
+.affix {
+      top:0;
+      width: 100%;
+      z-index: 9999 !important;
+  }
+.navbar {
+      margin-bottom: 0px;
+  }
 
-#map-container { height: 180px; }
+.affix ~ .container-fluid {
+     position: relative;
+     top: 50px;
+  }
 
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
-      width: 80%;
-      height: 50%;
+      width: 70%;
+      height: 40%;
       margin: auto;
   }
 
+#map-container { height: 180px; }
 
-
-
+#stats dl {
+  font-size: 12pt; 
+}
 
 
 
